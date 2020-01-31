@@ -1,0 +1,20 @@
+{
+  "name": "githubactionsnodejsmodules",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"no build specified\"",
+    "test": "echo \"no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waspQl/githubActionsNodeJsModules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waspQl/githubActionsNodeJsModules/issues"
+  },
+  "homepage": "https://github.com/waspQl/githubActionsNodeJsModules#readme"
+}
