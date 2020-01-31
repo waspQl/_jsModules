@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/waspQl/githubActionsNodeJsModules/issues"
   },
-  "homepage": "https://github.com/waspQl/githubActionsNodeJsModules#readme"
+  "homepage": "https://github.com/waspQl/githubActionsNodeJsModules#readme",
+  "devDependencies": {
+    "eslint": "6.8.0"
+  }
 }
