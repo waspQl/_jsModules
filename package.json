@@ -2,21 +2,12 @@
   "name": "githubactionsnodejsmodules",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint '**'",
     "test": "if test $(node --experimental-modules --no-warnings src/app.mjs ) = 'dave'; then echo yes; else echo 'Error' && exit 1; fi"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/waspQl/githubActionsNodeJsModules.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/waspQl/githubActionsNodeJsModules/issues"
-  },
-  "homepage": "https://github.com/waspQl/githubActionsNodeJsModules#readme",
   "devDependencies": {
     "eslint": "6.8.0"
   }
