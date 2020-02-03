@@ -6,8 +6,6 @@
     "lint": "eslint --ext .js,.mjs .",
     "test": "if test $(node --experimental-modules --no-warnings src/app.mjs ) = 'dave'; then echo yes; else echo 'Error' && exit 1; fi"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "eslint": "6.8.0"
   }
